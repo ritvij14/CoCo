@@ -83,6 +83,6 @@
     <string name="contact_tracing_onboarding">Detects places where people gather &amp; highlight you the high risk area near you</string>
     <string name="skip">Skip</string>
     <string name="data_safe">Your data will be securely stored in the app</string>
-    <string name="self_report"><![CDATA[Self reporting & booking appointment if you are in high risk of geting the virus]]></string>
+    <string name="check_symptoms">Check your symptoms and risk of getting COVID-19.</string>
 
 </resources>

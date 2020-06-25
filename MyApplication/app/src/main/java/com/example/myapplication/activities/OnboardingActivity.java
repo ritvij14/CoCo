@@ -83,8 +83,8 @@ public class OnboardingActivity extends AppCompatActivity {
         OnboardingScreenItem itemDataSafe = new OnboardingScreenItem(img, desc);
         onboardingScreenItemList.add(itemDataSafe);
 
-        img = R.drawable.self_report;
-        desc = R.string.self_report;
+        img = R.drawable.check_symptoms;
+        desc = R.string.check_symptoms;
         OnboardingScreenItem itemSelfReport = new OnboardingScreenItem(img, desc);
         onboardingScreenItemList.add(itemSelfReport);
 
@@ -96,7 +96,7 @@ public class OnboardingActivity extends AppCompatActivity {
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT
         );
-        layoutParams.setMargins(8, 0, 8, 0);
+        layoutParams.setMargins(25, 0, 25, 0);
         for (int i = 0; i < indicators.length; i++) {
             indicators[i] = new ImageView(getApplicationContext());
             indicators[i].setImageDrawable(ContextCompat.getDrawable(
